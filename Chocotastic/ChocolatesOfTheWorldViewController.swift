@@ -80,7 +80,7 @@ class ChocolatesOfTheWorldViewController: UIViewController {
         ShoppingCart.sharedCart.chocolates.value.append(chocolate)
 
         if let selectedRowIndexPath = self.tableView.indexPathForSelectedRow {
-          self.tableView.deselectRow(at: selectedRowIndexPath, animated: true)
+          //self.tableView.deselectRow(at: selectedRowIndexPath, animated: true)
         }
       })
       .addDisposableTo(disposeBag)
